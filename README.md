@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hey there 👋<br><br>I'm Shrikant, a Computer Engineering student and passionate Java Full Stack Developer.<br><br>🔭 Building full-stack web applications with Java<br>🎯 Goal: Become a Software Engineer<br>🌱 Currently learning System Design, DSA, and AI/ML<br>👯 Looking to collaborate on Open Source and Full-Stack Projects<br>💬 Ask me about React, Node.js, Express.js, MongoDB, and JavaScript<br>⚡ Fun fact: I love turning ideas into products through code
+Hey there 👋<br><br>I'm Shrikant, a Computer Engineering student and passionate Java Full Stack Developer.<br><br>🔭 Building full-stack web applications with Java<br>🎯 Goal: Become a Software Engineer<br>🌱 Currently learning System Design, DSA, and AI/ML<br>👯 Looking to collaborate on Open Source and Full-Stack Projects<br>⚡ Fun fact: I love turning ideas into products through code
 
 
 ## 🌐 Socials:
