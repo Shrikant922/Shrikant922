@@ -18,6 +18,14 @@ Hey there 👋<br><br>I'm Shrikant, a Computer Engineering student and passionat
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
+<a href="https://www.gitanimals.org/en-US?utm_medium=image&utm_source=Shrikant922&utm_content=farm">
+<img
+  src="https://render.gitanimals.org/farms/Shrikant922"
+  width="600"
+  height="300"
+/>
+</a>
+
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Shrikant922&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
