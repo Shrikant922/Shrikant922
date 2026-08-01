@@ -11,7 +11,7 @@ import base64
 import io
 import os
 
-INPUT_IMG = r"C:\Users\shrik\.gemini\antigravity\brain\075515a1-5603-4ab1-aaac-a11931fcf86b\.user_uploaded\media__1785611256938.jpg"
+INPUT_IMG = r"s:\JavaScript Projects\Github readme\variation_2.jpg"
 OUT_DIR = r"s:\JavaScript Projects\Github readme"
 
 def remove_white_bg(img, threshold=235):
@@ -70,12 +70,12 @@ def main():
     print("\n=== Processing banner image ===")
     banner_img = remove_white_bg(img, threshold=230)
     
-    banner_w = 480
+    banner_w = 600
     ratio = banner_w / banner_img.width
     banner_h = int(banner_img.height * ratio)
     banner_img = banner_img.resize((banner_w, banner_h), Image.LANCZOS)
     
-    banner_b64, banner_img = img_to_base64_png(banner_img, max_size_kb=300)
+    banner_b64, banner_img = img_to_base64_png(banner_img, max_size_kb=400)
     
     with open(os.path.join(OUT_DIR, "_banner_img_b64.txt"), "w") as f:
         f.write(banner_b64)
