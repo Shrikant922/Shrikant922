@@ -58,14 +58,14 @@ text{{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}}
 <clipPath id="cHi"><rect x="48" y="70" width="0" height="55"><animate attributeName="width" from="0" to="220" dur=".5s" begin="1.2s" fill="freeze"/></rect></clipPath>
 
 <!-- QUOTE BOX CLIP PATHS (Aligned to text coordinates) -->
-<clipPath id="q1"><rect x="48" y="240" width="0" height="40"><animate attributeName="width" from="0" to="350" dur=".7s" begin="3.4s" fill="freeze"/></rect></clipPath>
-<clipPath id="q2"><rect x="48" y="270" width="0" height="40"><animate attributeName="width" from="0" to="350" dur=".6s" begin="4.2s" fill="freeze"/></rect></clipPath>
+<clipPath id="q1"><rect x="48" y="200" width="0" height="150"><animate attributeName="width" from="0" to="350" dur=".7s" begin="3.4s" fill="freeze"/></rect></clipPath>
+<clipPath id="q2"><rect x="48" y="200" width="0" height="150"><animate attributeName="width" from="0" to="350" dur=".6s" begin="4.2s" fill="freeze"/></rect></clipPath>
 
 <!-- Cycling roles -->
-<clipPath id="r1"><rect x="48" y="170" width="0" height="60"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.01;.07;.2;.24;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
-<clipPath id="r2"><rect x="48" y="170" width="0" height="60"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.26;.32;.45;.49;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
-<clipPath id="r3"><rect x="48" y="170" width="0" height="60"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.51;.57;.7;.74;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
-<clipPath id="r4"><rect x="48" y="170" width="0" height="60"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.76;.82;.95;.99;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
+<clipPath id="r1"><rect x="48" y="100" width="0" height="200"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.01;.07;.2;.24;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
+<clipPath id="r2"><rect x="48" y="100" width="0" height="200"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.26;.32;.45;.49;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
+<clipPath id="r3"><rect x="48" y="100" width="0" height="200"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.51;.57;.7;.74;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
+<clipPath id="r4"><rect x="48" y="100" width="0" height="200"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.76;.82;.95;.99;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
 
 <clipPath id="charReveal"><rect x="680" y="100" width="600" height="0">
   <animate attributeName="height" from="0" to="640" dur="1.8s" begin=".5s" fill="freeze"/>

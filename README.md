@@ -2,9 +2,9 @@
 
 <!-- ✨ Animated Banner — auto-switches dark/light ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=1">
-  <img src="./banner.svg?v=1" alt="Shrikant Tathe — Full Stack Java Developer & AIML Enthusiast" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=10">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=10">
+  <img src="./banner.svg?v=10" alt="Shrikant Tathe — Full Stack Java Developer & AIML Enthusiast" width="100%"/>
 </picture>
 
 </div>
@@ -16,7 +16,7 @@
 <td width="38%" align="center" valign="middle">
 
 <!-- 🪪 Swinging Lanyard ID Card -->
-<img src="./lanyard.svg?v=1" alt="Shrikant Tathe ID badge" width="330"/>
+<img src="./lanyard.svg?v=10" alt="Shrikant Tathe ID badge" width="330"/>
 
 </td>
 <td width="62%" valign="middle">
@@ -50,10 +50,10 @@
 <table>
 <tr>
 <td>
-<img src="./stats.svg?v=1" alt="Shrikant's GitHub Stats" width="495"/>
+<img src="./stats.svg?v=10" alt="Shrikant's GitHub Stats" width="495"/>
 </td>
 <td>
-<img src="./langs.svg?v=1" alt="Top Languages" width="350"/>
+<img src="./langs.svg?v=10" alt="Top Languages" width="350"/>
 </td>
 </tr>
 </table>
@@ -66,7 +66,7 @@
 
 ## 🏆 Trophies
 
-<img src="./trophies.svg?v=1" alt="GitHub Trophies" width="800"/>
+<img src="./trophies.svg?v=10" alt="GitHub Trophies" width="800"/>
 
 <br/>
 
