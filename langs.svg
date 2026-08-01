@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 250" width="350" height="250">
+  <defs>
+    <!-- Animated Red & Purple Gradient Border -->
+    <linearGradient id="card-border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" class="grad-stop-1" />
+      <stop offset="50%" class="grad-stop-2" />
+      <stop offset="100%" class="grad-stop-3" />
+    </linearGradient>
+
+    <!-- Background Dot Pattern -->
+    <pattern id="dot-pattern" x="0" y="0" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.9" fill="#8b949e" fill-opacity="0.14" />
+    </pattern>
+
+    <!-- Clip Path for Top Stacked Bar -->
+    <clipPath id="stacked-bar-clip">
+      <rect x="25" y="44" width="300" height="8" rx="4" />
+    </clipPath>
+
+    <!-- Soft Glow Filter -->
+    <filter id="card-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#a855f7" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <style>
+    /* Monospace Fallback & Base Typography */
+    .title-text {
+      font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'Courier New', monospace;
+      font-size: 14px;
+      font-weight: 700;
+      fill: #f0f6fc;
+      letter-spacing: 0.5px;
+    }
+    .lang-name {
+      font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'Courier New', monospace;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #c9d1d9;
+      transition: fill 0.2s ease;
+    }
+    .lang-pct {
+      font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'Courier New', monospace;
+      font-size: 12px;
+      font-weight: 600;
+      fill: #8b949e;
+      text-anchor: end;
+      transition: fill 0.2s ease;
+    }
+
+    /* Gradient Border Keyframe Animations (Red #ef4444 & Purple #a855f7 Theme) */
+    .grad-stop-1 { animation: stop1Anim 5s ease-in-out infinite alternate; }
+    .grad-stop-2 { animation: stop2Anim 5s ease-in-out infinite alternate; }
+    .grad-stop-3 { animation: stop3Anim 5s ease-in-out infinite alternate; }
+
+    @keyframes stop1Anim {
+      0%   { stop-color: #ef4444; }
+      50%  { stop-color: #a855f7; }
+      100% { stop-color: #ec4899; }
+    }
+    @keyframes stop2Anim {
+      0%   { stop-color: #a855f7; }
+      50%  { stop-color: #ef4444; }
+      100% { stop-color: #8b5cf6; }
+    }
+    @keyframes stop3Anim {
+      0%   { stop-color: #ec4899; }
+      50%  { stop-color: #a855f7; }
+      100% { stop-color: #ef4444; }
+    }
+
+    /* Staggered Row Item Animation */
+    .row-item {
+      animation: fadeInRow 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    .row-1 { animation-delay: 0.15s; }
+    .row-2 { animation-delay: 0.30s; }
+    .row-3 { animation-delay: 0.45s; }
+    .row-4 { animation-delay: 0.60s; }
+    .row-5 { animation-delay: 0.75s; }
+
+    @keyframes fadeInRow {
+      0% {
+        opacity: 0;
+        transform: translateY(4px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Top Stacked Bar Expansion Animation */
+    .stacked-bar-group {
+      transform-origin: 25px 48px;
+      animation: expandStacked 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;
+    }
+    @keyframes expandStacked {
+      0% {
+        transform: scaleX(0);
+        opacity: 0;
+      }
+      100% {
+        transform: scaleX(1);
+        opacity: 1;
+      }
+    }
+
+    /* Progress Bar Keyframe Expansion Animations */
+    .bar {
+      transform-origin: 25px 0;
+      animation: expandBar 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+      transition: filter 0.2s ease, opacity 0.2s ease;
+    }
+    .bar-java   { animation-delay: 0.25s; }
+    .bar-html   { animation-delay: 0.40s; }
+    .bar-python { animation-delay: 0.55s; }
+    .bar-js     { animation-delay: 0.70s; }
+    .bar-css    { animation-delay: 0.85s; }
+
+    @keyframes expandBar {
+      0% {
+        transform: scaleX(0);
+        opacity: 0;
+      }
+      100% {
+        transform: scaleX(1);
+        opacity: 1;
+      }
+    }
+
+    /* Interactive Hover Effects */
+    .row-group:hover .bar {
+      filter: brightness(1.25);
+    }
+    .row-group:hover .lang-name {
+      fill: #ffffff;
+    }
+    .row-group:hover .lang-pct {
+      fill: #c9d1d9;
+    }
+  </style>
+
+  <!-- Main Card Container -->
+  <rect x="1.5" y="1.5" width="347" height="247" rx="12" fill="#0d1117" stroke="url(#card-border-grad)" stroke-width="2" filter="url(#card-glow)" />
+
+  <!-- Background Dot Pattern Overlay -->
+  <rect x="2.5" y="2.5" width="345" height="245" rx="11" fill="url(#dot-pattern)" />
+
+  <!-- Title Section -->
+  <g class="row-item row-1">
+    <text x="25" y="31" class="title-text">📊 Top Languages</text>
+  </g>
+
+  <!-- Horizontal Stacked Language Bar (GitHub Style) -->
+  <g class="stacked-bar-group" clip-path="url(#stacked-bar-clip)">
+    <!-- Java 42% (126px) -->
+    <rect x="25" y="44" width="126" height="8" fill="#ef4444" />
+    <!-- HTML 22% (66px) -->
+    <rect x="151" y="44" width="66" height="8" fill="#e34f26" />
+    <!-- Python 14% (42px) -->
+    <rect x="217" y="44" width="42" height="8" fill="#3572A5" />
+    <!-- JavaScript 12% (36px) -->
+    <rect x="259" y="44" width="36" height="8" fill="#f7df1e" />
+    <!-- CSS 10% (30px) -->
+    <rect x="295" y="44" width="30" height="8" fill="#a855f7" />
+  </g>
+
+  <!-- Language Rows -->
+
+  <!-- Row 1: Java (42%) -->
+  <g class="row-group row-item row-1">
+    <circle cx="31" cy="70" r="4.5" fill="#ef4444" />
+    <text x="42" y="74" class="lang-name">Java</text>
+    <text x="325" y="74" class="lang-pct">42%</text>
+    <rect x="25" y="80" width="300" height="5" rx="2.5" fill="#21262d" />
+    <rect x="25" y="80" width="126" height="5" rx="2.5" fill="#ef4444" class="bar bar-java" />
+  </g>
+
+  <!-- Row 2: HTML (22%) -->
+  <g class="row-group row-item row-2">
+    <circle cx="31" cy="102" r="4.5" fill="#e34f26" />
+    <text x="42" y="106" class="lang-name">HTML</text>
+    <text x="325" y="106" class="lang-pct">22%</text>
+    <rect x="25" y="112" width="300" height="5" rx="2.5" fill="#21262d" />
+    <rect x="25" y="112" width="66" height="5" rx="2.5" fill="#e34f26" class="bar bar-html" />
+  </g>
+
+  <!-- Row 3: Python (14%) -->
+  <g class="row-group row-item row-3">
+    <circle cx="31" cy="134" r="4.5" fill="#3572A5" />
+    <text x="42" y="138" class="lang-name">Python</text>
+    <text x="325" y="138" class="lang-pct">14%</text>
+    <rect x="25" y="144" width="300" height="5" rx="2.5" fill="#21262d" />
+    <rect x="25" y="144" width="42" height="5" rx="2.5" fill="#3572A5" class="bar bar-python" />
+  </g>
+
+  <!-- Row 4: JavaScript (12%) -->
+  <g class="row-group row-item row-4">
+    <circle cx="31" cy="166" r="4.5" fill="#f7df1e" />
+    <text x="42" y="170" class="lang-name">JavaScript</text>
+    <text x="325" y="170" class="lang-pct">12%</text>
+    <rect x="25" y="176" width="300" height="5" rx="2.5" fill="#21262d" />
+    <rect x="25" y="176" width="36" height="5" rx="2.5" fill="#f7df1e" class="bar bar-js" />
+  </g>
+
+  <!-- Row 5: CSS (10%) -->
+  <g class="row-group row-item row-5">
+    <circle cx="31" cy="198" r="4.5" fill="#a855f7" />
+    <text x="42" y="202" class="lang-name">CSS</text>
+    <text x="325" y="202" class="lang-pct">10%</text>
+    <rect x="25" y="208" width="300" height="5" rx="2.5" fill="#21262d" />
+    <rect x="25" y="208" width="30" height="5" rx="2.5" fill="#a855f7" class="bar bar-css" />
+  </g>
+</svg>

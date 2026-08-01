@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="800" height="180">
+  <defs>
+    <style>
+      @keyframes popIn {
+        0% {
+          opacity: 0;
+          transform: scale(0.55);
+        }
+        70% {
+          opacity: 1;
+          transform: scale(1.05);
+        }
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+      @keyframes shineMove {
+        0% {
+          transform: translateX(-250px) skewX(-20deg);
+        }
+        35% {
+          transform: translateX(1100px) skewX(-20deg);
+        }
+        100% {
+          transform: translateX(1100px) skewX(-20deg);
+        }
+      }
+
+      .card {
+        animation: popIn 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+        opacity: 0;
+        transform-box: fill-box;
+      }
+
+      .card-1 { animation-delay: 0.1s; transform-origin: 77px 90px; }
+      .card-2 { animation-delay: 0.3s; transform-origin: 206px 90px; }
+      .card-3 { animation-delay: 0.5s; transform-origin: 335px 90px; }
+      .card-4 { animation-delay: 0.7s; transform-origin: 464px 90px; }
+      .card-5 { animation-delay: 0.9s; transform-origin: 593px 90px; }
+      .card-6 { animation-delay: 1.1s; transform-origin: 722px 90px; }
+
+      .shine-bar {
+        animation: shineMove 4.5s ease-in-out 1.6s infinite;
+      }
+
+      .mono-text {
+        font-family: 'Fira Code', 'Consolas', 'Courier New', monospace;
+      }
+    </style>
+
+    <!-- Filters -->
+    <filter id="bg-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+
+    <filter id="card-shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <!-- Gradients -->
+    <linearGradient id="bg-border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <linearGradient id="card-bg-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <!-- Holographic Shine Gradient -->
+    <linearGradient id="holo-shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#ef4444" stop-opacity="0.15"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="75%" stop-color="#a855f7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Clip Path for Holographic Shine across all 6 cards -->
+    <clipPath id="cards-clip">
+      <rect x="20" y="16" width="114" height="148" rx="12"/>
+      <rect x="149" y="16" width="114" height="148" rx="12"/>
+      <rect x="278" y="16" width="114" height="148" rx="12"/>
+      <rect x="407" y="16" width="114" height="148" rx="12"/>
+      <rect x="536" y="16" width="114" height="148" rx="12"/>
+      <rect x="665" y="16" width="114" height="148" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background Base Container -->
+  <rect x="2" y="2" width="796" height="176" rx="14" fill="#090d16" fill-opacity="0.95" stroke="url(#bg-border-grad)" stroke-width="1.5"/>
+
+  <!-- Red & Purple Ambient Backdrop Glows -->
+  <circle cx="80" cy="90" r="90" fill="#ef4444" opacity="0.12" filter="url(#bg-blur)"/>
+  <circle cx="720" cy="90" r="90" fill="#a855f7" opacity="0.12" filter="url(#bg-blur)"/>
+  <circle cx="400" cy="90" r="80" fill="#a855f7" opacity="0.06" filter="url(#bg-blur)"/>
+
+  <!-- Trophy Cards Group -->
+  <g class="mono-text">
+    <!-- Card 1: Java Dev -->
+    <g class="card card-1" filter="url(#card-shadow)">
+      <rect x="20" y="16" width="114" height="148" rx="12" fill="url(#card-bg-grad)" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.6"/>
+      <text x="77" y="47" text-anchor="middle" font-size="26">☕</text>
+      <text x="77" y="75" text-anchor="middle" font-size="22" font-weight="900" fill="#ef4444">S</text>
+      <text x="77" y="103" text-anchor="middle" font-size="12" font-weight="700" fill="#f0f6fc">Java Dev</text>
+      <text x="77" y="122" text-anchor="middle" font-size="10.5" font-weight="500" fill="#8b949e">Full Stack</text>
+      <rect x="52" y="142" width="50" height="2.5" rx="1.25" fill="#ef4444"/>
+    </g>
+
+    <!-- Card 2: Stargazer -->
+    <g class="card card-2" filter="url(#card-shadow)">
+      <rect x="149" y="16" width="114" height="148" rx="12" fill="url(#card-bg-grad)" stroke="#fde047" stroke-width="1.5" stroke-opacity="0.6"/>
+      <text x="206" y="47" text-anchor="middle" font-size="26">🌟</text>
+      <text x="206" y="75" text-anchor="middle" font-size="22" font-weight="900" fill="#fde047">A</text>
+      <text x="206" y="103" text-anchor="middle" font-size="12" font-weight="700" fill="#f0f6fc">Stargazer</text>
+      <text x="206" y="122" text-anchor="middle" font-size="10.5" font-weight="500" fill="#8b949e">Stars 10+</text>
+      <rect x="181" y="142" width="50" height="2.5" rx="1.25" fill="#fde047"/>
+    </g>
+
+    <!-- Card 3: Starstruck -->
+    <g class="card card-3" filter="url(#card-shadow)">
+      <rect x="278" y="16" width="114" height="148" rx="12" fill="url(#card-bg-grad)" stroke="#f97316" stroke-width="1.5" stroke-opacity="0.6"/>
+      <text x="335" y="47" text-anchor="middle" font-size="26">⭐</text>
+      <text x="335" y="75" text-anchor="middle" font-size="22" font-weight="900" fill="#f97316">S</text>
+      <text x="335" y="103" text-anchor="middle" font-size="11.5" font-weight="700" fill="#f0f6fc">Starstruck</text>
+      <text x="335" y="122" text-anchor="middle" font-size="10" font-weight="500" fill="#8b949e">GitHub Badge</text>
+      <rect x="310" y="142" width="50" height="2.5" rx="1.25" fill="#f97316"/>
+    </g>
+
+    <!-- Card 4: Rising Star -->
+    <g class="card card-4" filter="url(#card-shadow)">
+      <rect x="407" y="16" width="114" height="148" rx="12" fill="url(#card-bg-grad)" stroke="#a855f7" stroke-width="1.5" stroke-opacity="0.6"/>
+      <text x="464" y="47" text-anchor="middle" font-size="26">💜</text>
+      <text x="464" y="75" text-anchor="middle" font-size="22" font-weight="900" fill="#a855f7">A</text>
+      <text x="464" y="103" text-anchor="middle" font-size="11.5" font-weight="700" fill="#f0f6fc">Rising Star</text>
+      <text x="464" y="122" text-anchor="middle" font-size="10" font-weight="500" fill="#8b949e">Followers 5+</text>
+      <rect x="439" y="142" width="50" height="2.5" rx="1.25" fill="#a855f7"/>
+    </g>
+
+    <!-- Card 5: Committer -->
+    <g class="card card-5" filter="url(#card-shadow)">
+      <rect x="536" y="16" width="114" height="148" rx="12" fill="url(#card-bg-grad)" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.6"/>
+      <text x="593" y="47" text-anchor="middle" font-size="26">💻</text>
+      <text x="593" y="75" text-anchor="middle" font-size="22" font-weight="900" fill="#38bdf8">A</text>
+      <text x="593" y="103" text-anchor="middle" font-size="12" font-weight="700" fill="#f0f6fc">Committer</text>
+      <text x="593" y="122" text-anchor="middle" font-size="10" font-weight="500" fill="#8b949e">Commits 70+</text>
+      <rect x="568" y="142" width="50" height="2.5" rx="1.25" fill="#38bdf8"/>
+    </g>
+
+    <!-- Card 6: Creator -->
+    <g class="card card-6" filter="url(#card-shadow)">
+      <rect x="665" y="16" width="114" height="148" rx="12" fill="url(#card-bg-grad)" stroke="#4ade80" stroke-width="1.5" stroke-opacity="0.6"/>
+      <text x="722" y="47" text-anchor="middle" font-size="26">📦</text>
+      <text x="722" y="75" text-anchor="middle" font-size="22" font-weight="900" fill="#4ade80">B</text>
+      <text x="722" y="103" text-anchor="middle" font-size="12" font-weight="700" fill="#f0f6fc">Creator</text>
+      <text x="722" y="122" text-anchor="middle" font-size="10.5" font-weight="500" fill="#8b949e">Repos 15+</text>
+      <rect x="697" y="142" width="50" height="2.5" rx="1.25" fill="#4ade80"/>
+    </g>
+  </g>
+
+  <!-- Holographic Shine Sweep Layer clipped to Cards -->
+  <g clip-path="url(#cards-clip)">
+    <rect class="shine-bar" x="-200" y="0" width="220" height="180" fill="url(#holo-shine)"/>
+  </g>
+</svg>

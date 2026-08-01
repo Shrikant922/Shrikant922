@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 230" width="495" height="230">
+  <defs>
+    <!-- Background red to purple gradient glow -->
+    <radialGradient id="glow-red" cx="10%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="glow-purple" cx="90%" cy="90%" r="60%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="glow-ring" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Animated Card Border Gradient -->
+    <linearGradient id="card-border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" class="grad-stop-1" stop-color="#ef4444" />
+      <stop offset="50%" class="grad-stop-mid" stop-color="#ec4899" />
+      <stop offset="100%" class="grad-stop-2" stop-color="#a855f7" />
+    </linearGradient>
+
+    <!-- Rank Ring Gradient (Red to Purple) -->
+    <linearGradient id="ring-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <!-- Rank Letter Gradient -->
+    <linearGradient id="rank-text-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+
+    <!-- Dot Pattern Background -->
+    <pattern id="dot-pattern" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#94a3b8" opacity="0.11" />
+    </pattern>
+  </defs>
+
+  <style>
+    /* Global styles & Font Family */
+    text {
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    }
+
+    /* Color Cycling Animation for Gradient Border */
+    @keyframes borderCycle1 {
+      0%, 100% { stop-color: #ef4444; }
+      50% { stop-color: #a855f7; }
+    }
+    @keyframes borderCycleMid {
+      0%, 100% { stop-color: #ec4899; }
+      50% { stop-color: #8b5cf6; }
+    }
+    @keyframes borderCycle2 {
+      0%, 100% { stop-color: #a855f7; }
+      50% { stop-color: #ef4444; }
+    }
+
+    .grad-stop-1 {
+      animation: borderCycle1 5s ease-in-out infinite;
+    }
+    .grad-stop-mid {
+      animation: borderCycleMid 5s ease-in-out infinite;
+    }
+    .grad-stop-2 {
+      animation: borderCycle2 5s ease-in-out infinite;
+    }
+
+    /* Stat Rows Slide-in Animation */
+    .stat-row {
+      opacity: 0;
+      animation: slideInLeft 0.65s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    .row-1 { animation-delay: 0.15s; }
+    .row-2 { animation-delay: 0.30s; }
+    .row-3 { animation-delay: 0.45s; }
+    .row-4 { animation-delay: 0.60s; }
+    .row-5 { animation-delay: 0.75s; }
+
+    @keyframes slideInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-18px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    /* Title Slide-in */
+    .title-group {
+      opacity: 0;
+      animation: slideInLeft 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards 0.05s;
+    }
+
+    /* Star Emoji Pulse & Rotation */
+    .star-emoji {
+      transform-origin: 32px 30px;
+      animation: starPulse 2.5s ease-in-out infinite alternate;
+    }
+
+    @keyframes starPulse {
+      0% { transform: scale(1) rotate(0deg); }
+      100% { transform: scale(1.2) rotate(14deg); }
+    }
+
+    /* Rank Ring Fills Up (0 to ~65% over 2s) */
+    .rank-ring-circle {
+      stroke-dasharray: 264;
+      stroke-dashoffset: 264;
+      animation: fillRing 2s cubic-bezier(0.4, 0, 0.2, 1) forwards 0.3s;
+    }
+
+    @keyframes fillRing {
+      from {
+        stroke-dashoffset: 264;
+      }
+      to {
+        stroke-dashoffset: 92.4; /* 65% filled -> 264 * (1 - 0.65) = 92.4 offset */
+      }
+    }
+
+    /* Rank Text Scale & Fade In */
+    .rank-text-group {
+      opacity: 0;
+      animation: popRank 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) forwards 1.1s;
+      transform-origin: 380px 112px;
+    }
+
+    @keyframes popRank {
+      0% {
+        opacity: 0;
+        transform: scale(0.4);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    /* Rank Label Entrance */
+    .rank-label-group {
+      opacity: 0;
+      animation: fadeIn 0.5s ease-out forwards 1.3s;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* Text Typography */
+    .title-text {
+      font-size: 15.5px;
+      font-weight: 700;
+      fill: #f8fafc;
+      letter-spacing: 0.3px;
+    }
+
+    .stat-label {
+      font-size: 12.5px;
+      font-weight: 500;
+      fill: #94a3b8;
+    }
+
+    .stat-value {
+      font-size: 13px;
+      font-weight: 700;
+    }
+  </style>
+
+  <!-- Card Background Rect with Dark Fill (#0d1117) -->
+  <rect x="1.5" y="1.5" width="492" height="227" rx="10" ry="10" fill="#0d1117" />
+
+  <!-- Ambient Corner Radial Glows -->
+  <rect x="1.5" y="1.5" width="492" height="227" rx="10" ry="10" fill="url(#glow-red)" />
+  <rect x="1.5" y="1.5" width="492" height="227" rx="10" ry="10" fill="url(#glow-purple)" />
+
+  <!-- Subtle Dot Pattern Overlay -->
+  <rect x="1.5" y="1.5" width="492" height="227" rx="10" ry="10" fill="url(#dot-pattern)" />
+
+  <!-- Animated Gradient Border -->
+  <rect x="1.5" y="1.5" width="492" height="227" rx="10" ry="10" fill="none" stroke="url(#card-border-grad)" stroke-width="2.5" />
+
+  <!-- TITLE SECTION -->
+  <g class="title-group">
+    <!-- Star Emoji / Icon -->
+    <g class="star-emoji">
+      <text x="26" y="36" font-size="16">⭐</text>
+    </g>
+    <text x="52" y="34" class="title-text">Shrikant's GitHub Stats</text>
+  </g>
+
+  <!-- STAT ROWS -->
+  <!-- Row 1: Total Stars Earned (Yellow: #fde047) -->
+  <g class="stat-row row-1" transform="translate(26, 68)">
+    <!-- Star Icon -->
+    <path d="M8 0.5l2.35 4.76 5.25.76-3.8 3.7 0.9 5.23L8 12.47l-4.7 2.47 0.9-5.23-3.8-3.7 5.25-.76L8 0.5z" fill="#fde047" />
+    <text x="24" y="11" class="stat-label">Total Stars Earned:</text>
+    <text x="270" y="11" class="stat-value" fill="#fde047" text-anchor="end">10+</text>
+  </g>
+
+  <!-- Row 2: Total Commits (Red: #ef4444) -->
+  <g class="stat-row row-2" transform="translate(26, 96)">
+    <!-- Commit Icon -->
+    <path d="M10.5 7a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM0 7a1 1 0 0 1 1-1h4.08a3.5 3.5 0 0 1 5.84 0H15a1 1 0 1 1 0 2h-4.08a3.5 3.5 0 0 1-5.84 0H1a1 1 0 0 1-1-1Z" fill="#ef4444" transform="translate(0, -1)" />
+    <text x="24" y="11" class="stat-label">Total Commits:</text>
+    <text x="270" y="11" class="stat-value" fill="#ef4444" text-anchor="end">70+</text>
+  </g>
+
+  <!-- Row 3: Public Repos (Purple: #a855f7) -->
+  <g class="stat-row row-3" transform="translate(26, 124)">
+    <!-- Repo Icon -->
+    <path d="M2 1.75C2 .784 2.784 0 3.75 0h7.5C12.216 0 13 .784 13 1.75v10.5A1.75 1.75 0 0 1 11.25 14H3.75A1.75 1.75 0 0 1 2 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25Z" fill="#a855f7" transform="translate(1, -1)" />
+    <text x="24" y="11" class="stat-label">Public Repos:</text>
+    <text x="270" y="11" class="stat-value" fill="#a855f7" text-anchor="end">15+</text>
+  </g>
+
+  <!-- Row 4: Followers (Sky Blue: #38bdf8) -->
+  <g class="stat-row row-4" transform="translate(26, 152)">
+    <!-- Followers Icon -->
+    <path d="M10.5 4a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM8 0a4 4 0 1 0 0 8 4 4 0 0 0 0-8ZM3 12.5a3.5 3.5 0 0 1 3.5-3.5h3a3.5 3.5 0 0 1 3.5 3.5v.25a.75.75 0 0 1-.75.75h-8.5a.75.75 0 0 1-.75-.75v-.25Z" fill="#38bdf8" transform="translate(0, -1)" />
+    <text x="24" y="11" class="stat-label">Followers:</text>
+    <text x="270" y="11" class="stat-value" fill="#38bdf8" text-anchor="end">5+</text>
+  </g>
+
+  <!-- Row 5: Projects Built (Green: #4ade80) -->
+  <g class="stat-row row-5" transform="translate(26, 180)">
+    <!-- Rocket / Project Icon -->
+    <path d="M14.064 0a8.75 8.75 0 0 0-6.187 2.563l-.439.439A1.5 1.5 0 0 0 7 4v1.586L4.707 7.879a1.5 1.5 0 0 0-.414.777l-.8 4a1.5 1.5 0 0 0 1.556 1.78l3.182-.318a1.5 1.5 0 0 0 .866-.456L11.414 11H13a1.5 1.5 0 0 0 1.061-.439l.439-.439A8.75 8.75 0 0 0 16 3.936V1.5A1.5 1.5 0 0 0 14.5 0h-.436ZM6 10.586l4-4V5h.586l4-4h.414A7.25 7.25 0 0 1 15 3.936a7.25 7.25 0 0 1-2.121 5.121l-.439.439H11.586l-4 4H6v-2.903ZM2.5 12a1 1 0 1 0 0 2 1 1 0 0 0 0-2Z" fill="#4ade80" transform="translate(0, -2) scale(0.9)" />
+    <text x="24" y="11" class="stat-label">Projects Built:</text>
+    <text x="270" y="11" class="stat-value" fill="#4ade80" text-anchor="end">10+</text>
+  </g>
+
+  <!-- RANK RING SECTION (RIGHT SIDE) -->
+  <g transform="translate(380, 112)">
+    <!-- Subtle Radial Glow behind Ring -->
+    <circle cx="0" cy="0" r="55" fill="url(#glow-ring)" />
+
+    <!-- Ring Track Background Circle -->
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#21262d" stroke-width="6" />
+
+    <!-- Animated Rank Ring Fill (Red-to-Purple Gradient, starting top -90deg) -->
+    <circle class="rank-ring-circle" cx="0" cy="0" r="42" fill="none" stroke="url(#ring-grad)" stroke-width="6" stroke-linecap="round" transform="rotate(-90)" />
+
+    <!-- Letter 'B' Rank in Center -->
+    <g class="rank-text-group">
+      <text x="0" y="12" text-anchor="middle" font-size="36" font-weight="800" fill="url(#rank-text-grad)">B</text>
+    </g>
+
+    <!-- 'RANK' Label Below Ring -->
+    <g class="rank-label-group">
+      <text x="0" y="62" text-anchor="middle" font-size="11" font-weight="700" fill="#8b949e" letter-spacing="2">RANK</text>
+    </g>
+  </g>
+</svg>
