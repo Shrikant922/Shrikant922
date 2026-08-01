@@ -47,8 +47,8 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
 <clipPath id="cHi"><rect x="48" y="70" width="0" height="55"><animate attributeName="width" from="0" to="220" dur=".5s" begin="1.2s" fill="freeze"/></rect></clipPath>
 
 <!-- QUOTE BOX CLIP PATHS (Aligned to text coordinates) -->
-<clipPath id="q1"><rect x="48" y="258" width="0" height="30"><animate attributeName="width" from="0" to="350" dur=".7s" begin="3.4s" fill="freeze"/></rect></clipPath>
-<clipPath id="q2"><rect x="48" y="284" width="0" height="30"><animate attributeName="width" from="0" to="350" dur=".6s" begin="4.2s" fill="freeze"/></rect></clipPath>
+<clipPath id="q1"><rect x="48" y="240" width="0" height="40"><animate attributeName="width" from="0" to="350" dur=".7s" begin="3.4s" fill="freeze"/></rect></clipPath>
+<clipPath id="q2"><rect x="48" y="270" width="0" height="40"><animate attributeName="width" from="0" to="350" dur=".6s" begin="4.2s" fill="freeze"/></rect></clipPath>
 
 <!-- Cycling roles -->
 <clipPath id="r1"><rect x="48" y="200" width="0" height="40"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.01;.07;.2;.24;1" dur="24s" repeatCount="indefinite" begin="2.9s"/></rect></clipPath>
@@ -93,7 +93,7 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <tspan class="ltr" style="animation-delay:1.90s"> </tspan>
   <tspan class="ltr" style="animation-delay:1.95s">T</tspan><tspan class="ltr" style="animation-delay:2.00s">a</tspan><tspan class="ltr" style="animation-delay:2.05s">t</tspan><tspan class="ltr" style="animation-delay:2.10s">h</tspan><tspan class="ltr" style="animation-delay:2.15s">e</tspan>
 </text>
-<g class="hb" style="animation-delay:3s"><path d="M305 136 c-5-11-21-9-21 4 0 9 12 16 21 22 9-6 21-13 21-22 0-13-16-15-21-4z" fill="#ef4444" opacity=".95"/></g>
+
 
 <!-- Cycling roles -->
 <text clip-path="url(#r1)" x="48" y="208" font-size="15" fill="#ef4444" filter="url(#glow)">&lt; Full Stack Java Developer /&gt;</text>
@@ -143,9 +143,9 @@ text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
   <text x="502" y="588" text-anchor="middle" font-size="11.5" fill="#4b5563">&#x1F465; Followers</text>
 </g>
 <text class="st" x="114" y="616" text-anchor="middle" font-size="18" font-weight="bold" fill="#ef4444" filter="url(#glow)" style="animation:fadeIn .4s ease 6.8s forwards">15+</text>
-<text class="st" x="246" y="616" text-anchor="middle" font-size="18" font-weight="bold" fill="#a855f7" filter="url(#glow)" style="animation:fadeIn .4s ease 6.95s forwards">70+</text>
-<text class="st" x="378" y="616" text-anchor="middle" font-size="18" font-weight="bold" fill="#fde047" filter="url(#glow)" style="animation:fadeIn .4s ease 7.1s forwards">10+</text>
-<text class="st" x="502" y="616" text-anchor="middle" font-size="18" font-weight="bold" fill="#c084fc" filter="url(#glow)" style="animation:fadeIn .4s ease 7.25s forwards">5+</text>
+<text class="st" x="246" y="616" text-anchor="middle" font-size="18" font-weight="bold" fill="#a855f7" filter="url(#glow)" style="animation:fadeIn .4s ease 6.95s forwards">500+</text>
+<text class="st" x="378" y="616" text-anchor="middle" font-size="18" font-weight="bold" fill="#fde047" filter="url(#glow)" style="animation:fadeIn .4s ease 7.1s forwards">100+</text>
+<text class="st" x="502" y="616" text-anchor="middle" font-size="18" font-weight="bold" fill="#c084fc" filter="url(#glow)" style="animation:fadeIn .4s ease 7.25s forwards">15+</text>
 
 <!-- Neon sign (Bottom Left) -->
 <g class="neon" style="animation:neonFlicker 2.4s ease 7.5s forwards">
