@@ -198,23 +198,23 @@ text{{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}}
 
 <g class="fl">
   <g clip-path="url(#charReveal)">
-    <image x="660" y="240" width="600" height="330" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,{BANNER_B64}"/>
+    <image x="690" y="110" width="580" height="620" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,{BANNER_B64}"/>
   </g>
 </g>
 
 <!-- Scan line sweep across character -->
 <g clip-path="url(#bannerBox)">
-  <rect x="660" y="240" width="600" height="4" fill="url(#scanEdge)" opacity=".8">
-    <animate attributeName="y" from="240" to="700" dur="1.8s" begin=".5s" fill="freeze"/>
+  <rect x="680" y="110" width="600" height="4" fill="url(#scanEdge)" opacity=".8">
+    <animate attributeName="y" from="110" to="720" dur="1.8s" begin=".5s" fill="freeze"/>
     <animate attributeName="opacity" values=".8;.8;0" keyTimes="0;.95;1" dur="1.8s" begin=".5s" fill="freeze"/>
   </rect>
-  <rect x="660" y="100" width="600" height="3" fill="url(#scanEdge)" opacity="0">
+  <rect x="680" y="50" width="600" height="3" fill="url(#scanEdge)" opacity="0">
     <animate attributeName="opacity" values="0;0;.5;.5;0" keyTimes="0;.01;.02;.95;1" dur="3.5s" begin="2.5s" repeatCount="indefinite"/>
-    <animate attributeName="y" from="100" to="700" dur="3.5s" begin="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="y" from="50" to="720" dur="3.5s" begin="2.5s" repeatCount="indefinite"/>
   </rect>
-  <rect x="660" y="100" width="600" height="0" fill="url(#scanTrail)" opacity="0">
+  <rect x="680" y="50" width="600" height="0" fill="url(#scanTrail)" opacity="0">
     <animate attributeName="opacity" values="0;0;.3;.3;0" keyTimes="0;.01;.05;.90;1" dur="3.5s" begin="2.5s" repeatCount="indefinite"/>
-    <animate attributeName="y" from="100" to="700" dur="3.5s" begin="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="y" from="50" to="720" dur="3.5s" begin="2.5s" repeatCount="indefinite"/>
     <animate attributeName="height" values="0;80;80;0" keyTimes="0;.1;.9;1" dur="3.5s" begin="2.5s" repeatCount="indefinite"/>
   </rect>
 </g>

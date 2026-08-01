@@ -11,7 +11,7 @@ import base64
 import io
 import os
 
-INPUT_IMG = r"s:\JavaScript Projects\Github readme\variation_2.jpg"
+INPUT_IMG = r"s:\JavaScript Projects\Github readme\varation 1.jpg"
 OUT_DIR = r"s:\JavaScript Projects\Github readme"
 
 def remove_white_bg(img, threshold=235):
@@ -70,7 +70,7 @@ def main():
     print("\n=== Processing banner image ===")
     banner_img = remove_white_bg(img, threshold=230)
     
-    banner_w = 600
+    banner_w = 540
     ratio = banner_w / banner_img.width
     banner_h = int(banner_img.height * ratio)
     banner_img = banner_img.resize((banner_w, banner_h), Image.LANCZOS)

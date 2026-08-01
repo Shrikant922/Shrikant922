@@ -2,9 +2,9 @@
 
 <!-- ✨ Animated Banner — auto-switches dark/light ✨ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=11">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=11">
-  <img src="./banner.svg?v=11" alt="Shrikant Tathe — Full Stack Java Developer & AIML Enthusiast" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=12">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=12">
+  <img src="./banner.svg?v=12" alt="Shrikant Tathe — Full Stack Java Developer & AIML Enthusiast" width="100%"/>
 </picture>
 
 </div>
