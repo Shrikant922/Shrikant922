@@ -3,12 +3,13 @@
 
   <br/>
 
-  ![Profile Views](https://komarev.com/ghpvc/?username=Shrikant922&label=Profile%20Views&color=2bbc8a&labelColor=1d1f21&style=for-the-badge)
-  ![Followers](https://img.shields.io/github/followers/Shrikant922?label=Followers&style=for-the-badge&color=2bbc8a&labelColor=1d1f21&logo=github)
+  ![Profile Views](https://komarev.com/ghpvc/?username=Shrikant922&label=Profile%20Views&color=8d192b&labelColor=5c1420&style=for-the-badge)
+  ![Followers](https://img.shields.io/github/followers/Shrikant922?label=Followers&style=for-the-badge&color=8d192b&labelColor=5c1420&logo=github)
 </div>
 
-<!-- ===================== ABOUT ME ===================== -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1d1f21,100:2bbc8a&height=70&section=header&text=About%20Me&fontSize=32&fontColor=eeeeee&fontAlignY=50" width="100%" alt="About Me"/>
+<br/>
+
+<img src="./assets/about-header.svg" width="100%" alt="About Me"/>
 
 <img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding animation"/>
 
@@ -38,19 +39,20 @@ public class Shrikant {
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1200&color=2bbc8a&center=true&vCenter=true&width=600&lines=%F0%9F%92%A1+Build+in+public.+Understand+every+line+you+ship.;%F0%9F%9A%80+Ship+early.+Learn+fast.+Repeat." alt="Motto"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1200&color=c4515f&center=true&vCenter=true&width=600&lines=%F0%9F%92%A1+Build+in+public.+Understand+every+line+you+ship.;%F0%9F%9A%80+Ship+early.+Learn+fast.+Repeat." alt="Motto"/>
 
 </div>
 
-<!-- ===================== STATS ===================== -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1d1f21,100:2bbc8a&height=70&section=header&text=GitHub%20Stats&fontSize=32&fontColor=eeeeee&fontAlignY=50" width="100%" alt="GitHub Stats"/>
+<br/>
+
+<img src="./assets/stats-header.svg" width="100%" alt="GitHub Stats"/>
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Shrikant922&show_icons=true&hide_border=true&bg_color=1d1f21&title_color=2bbc8a&text_color=eeeeee&icon_color=2bbc8a&ring_color=2bbc8a&include_all_commits=true&count_private=true" alt="GitHub stats"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shrikant922&layout=compact&hide_border=true&bg_color=1d1f21&title_color=2bbc8a&text_color=eeeeee" alt="Top languages"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Shrikant922&show_icons=true&hide_border=true&bg_color=e9d8d4&title_color=8d192b&text_color=862931&icon_color=8d192b&ring_color=8d192b&include_all_commits=true&count_private=true" alt="GitHub stats"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shrikant922&layout=compact&hide_border=true&bg_color=e9d8d4&title_color=8d192b&text_color=862931" alt="Top languages"/>
 
-<img src="https://streak-stats.demolab.com?user=Shrikant922&hide_border=true&background=1d1f21&ring=2bbc8a&fire=2bbc8a&currStreakNum=eeeeee&currStreakLabel=2bbc8a&sideNums=eeeeee&sideLabels=aaaaaa&dates=888888" alt="Streak stats"/>
+<img src="https://streak-stats.demolab.com?user=Shrikant922&hide_border=true&background=e9d8d4&ring=8d192b&fire=8d192b&currStreakNum=8d192b&currStreakLabel=8d192b&sideNums=8d192b&sideLabels=862931&dates=862931" alt="Streak stats"/>
 
 </div>
 
