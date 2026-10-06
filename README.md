@@ -75,11 +75,10 @@ public class Shrikant {
 
 | 🗂️ Project | 📝 What it does | 🧱 Built with |
 |---|---|---|
-| **🤖 Training Data Curation Bot** | Final-year project: automated dataset generation pipeline for **LLM fine-tuning** | Python, LLMs, Data Pipelines |
-| **🧭 SkillPath** | AI-powered **personalized learning roadmap generator** | Spring Boot, React, MySQL, Gemini API |
-| **🎯 Road to AI/ML Engineer** | Personal learning tracker with a **54-topic, 3-phase roadmap** | HTML, CSS, JavaScript |
-| **🖼️ Background Removal Studio** | Remove and replace image backgrounds with **BRIA RMBG-2.0** | Python, Gradio, Hugging Face |
-| **🏦 Bank Management System** | Console banking app showcasing core **OOP concepts** | Java |
+| **🤖 [training-data-bot](https://github.com/Shrikant922/training-data-bot)** | My final-year project: an autonomous pipeline from raw documents to production-ready **LLM fine-tuning datasets** | Python |
+| **🧑‍💻 [codecrafters-claude-code-java](https://github.com/Shrikant922/codecrafters-claude-code-java)** | A from-scratch **Java CLI agent** with Read/Write/Bash tool-calling and an agentic loop, built via CodeCrafters (⭐ 55) | Java, openai-java SDK, OpenRouter (Claude Haiku 4.5) |
+| **🌌 [AURA](https://github.com/Shrikant922/AURA)** | A **project and knowledge management platform** (⭐ 41) | JavaScript |
+| **🧭 [skillpath](https://github.com/Shrikant922/skillpath)** | An AI-powered full-stack learning platform that generates **personalized week-by-week learning roadmaps** (⭐ 27) | Java, Spring Boot, React, MySQL, Gemini API |
 
 📌 See everything on my [**repositories page**](https://github.com/Shrikant922?tab=repositories).
 
