@@ -1,7 +1,14 @@
-<!-- ===================== ABOUT ME ===================== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:203a43,100:2c5364&height=90&section=header&text=About%20Me&fontSize=38&fontColor=2DD4BF&fontAlignY=50" width="100%" alt="About Me banner"/>
+  <img src="./assets/about-banner.svg" width="100%" alt="Shrikant Tathe - Java Full Stack Developer"/>
+
+  <br/>
+
+  ![Profile Views](https://komarev.com/ghpvc/?username=Shrikant922&label=Profile%20Views&color=2bbc8a&labelColor=1d1f21&style=for-the-badge)
+  ![Followers](https://img.shields.io/github/followers/Shrikant922?label=Followers&style=for-the-badge&color=2bbc8a&labelColor=1d1f21&logo=github)
 </div>
+
+<!-- ===================== ABOUT ME ===================== -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1d1f21,100:2bbc8a&height=70&section=header&text=About%20Me&fontSize=32&fontColor=eeeeee&fontAlignY=50" width="100%" alt="About Me"/>
 
 <img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding animation"/>
 
@@ -31,13 +38,21 @@ public class Shrikant {
 
 <br/>
 
-<a href="https://github.com/Shrikant922">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1200&color=2DD4BF&center=true&vCenter=true&width=600&lines=%F0%9F%92%A1+Build+in+public.+Understand+every+line+you+ship.;%F0%9F%9A%80+Ship+early.+Learn+fast.+Repeat." alt="Motto"/>
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1200&color=2bbc8a&center=true&vCenter=true&width=600&lines=%F0%9F%92%A1+Build+in+public.+Understand+every+line+you+ship.;%F0%9F%9A%80+Ship+early.+Learn+fast.+Repeat." alt="Motto"/>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2DD4BF,100:2c5364&height=3" width="100%" alt="divider"/>
+<!-- ===================== STATS ===================== -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1d1f21,100:2bbc8a&height=70&section=header&text=GitHub%20Stats&fontSize=32&fontColor=eeeeee&fontAlignY=50" width="100%" alt="GitHub Stats"/>
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Shrikant922&show_icons=true&hide_border=true&bg_color=1d1f21&title_color=2bbc8a&text_color=eeeeee&icon_color=2bbc8a&ring_color=2bbc8a&include_all_commits=true&count_private=true" alt="GitHub stats"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shrikant922&layout=compact&hide_border=true&bg_color=1d1f21&title_color=2bbc8a&text_color=eeeeee" alt="Top languages"/>
+
+<img src="https://streak-stats.demolab.com?user=Shrikant922&hide_border=true&background=1d1f21&ring=2bbc8a&fire=2bbc8a&currStreakNum=eeeeee&currStreakLabel=2bbc8a&sideNums=eeeeee&sideLabels=aaaaaa&dates=888888" alt="Streak stats"/>
+
+</div>
 
 
 # 💻 Tech Stack:
