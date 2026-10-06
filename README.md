@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/about-banner.svg" width="100%" alt="Shrikant Tathe - Java Full Stack Developer"/>
+  <img src="./about-banner.svg" width="100%" alt="Shrikant Tathe - Java Full Stack Developer"/>
 
   <br/>
 
@@ -9,7 +9,7 @@
 
 <br/>
 
-<img src="./assets/about-header.svg" width="100%" alt="About Me"/>
+<img src="./about-header.svg" width="100%" alt="About Me"/>
 
 <img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding animation"/>
 
@@ -45,7 +45,7 @@ public class Shrikant {
 
 <br/>
 
-<img src="./assets/stats-header.svg" width="100%" alt="GitHub Stats"/>
+<img src="./stats-header.svg" width="100%" alt="GitHub Stats"/>
 
 <div align="center">
 
