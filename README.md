@@ -1,5 +1,43 @@
-# 💫 About Me:
-## 👨‍💻 About Me<br><br>Hey, I'm **Shrikant** 👋, a final-year **Computer Engineering** student at **D. Y. Patil College of Engineering, Akurdi, Pune** 🎓, and a **Java Full Stack Developer** who is growing into **AI/ML engineering**.<br><br>I like building things that actually work, from full stack apps with **Spring Boot + React** to AI-powered tools that solve real problems. I learn best by shipping projects, so most of what I know comes from building, breaking, and fixing things. 🛠️<br><br>### 🌟 A little more about me<br><br>- 🚀 **What I do:** Build full stack web apps with Java, Spring Boot, React and MySQL<br>- 🤖 **What I'm exploring:** LLMs, RAG, agentic AI, and automated dataset pipelines for fine-tuning<br>- 🎓 **Experience:** ML / Data Science internship, Full Stack Java training, and the Wells Fargo Software Engineering virtual experience<br>- 🧩 **Always up to:** Competitive programming, open source, and building personal tools and trackers<br>- 💼 **Looking for:** Java Developer and AI/GenAI fresher roles where I can learn fast and contribute from day one<br><br>> 💡 *I believe the best way to learn is to build in public, and to understand every line I ship.*
+<!-- ===================== ABOUT ME ===================== -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:203a43,100:2c5364&height=90&section=header&text=About%20Me&fontSize=38&fontColor=2DD4BF&fontAlignY=50" width="100%" alt="About Me banner"/>
+</div>
+
+<img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding animation"/>
+
+### Hey, I'm Shrikant <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" alt="wave"/>
+
+- 🎓 Final-year **Computer Engineering** student at **D. Y. Patil College of Engineering, Akurdi, Pune**
+- ☕ **Java Full Stack Developer** growing into **AI/ML engineering** 🤖
+- 🛠️ I learn by **building, breaking and fixing**, so most of what I know comes from shipping projects
+- 🏛️ **Media Coordinator** at ACES Computer Club and **Technical Advisor** at Sambhav (Student Council)
+- 🧩 Into **competitive programming**, **open source** and building personal tools
+
+<br/>
+
+```java
+public class Shrikant {
+    String currentFocus = "Spring Boot + React + LLMs";
+    String superpower   = "Turning ideas into working products";
+    boolean openToWork  = true; // Java Developer & AI/GenAI fresher roles 💼
+}
+```
+
+<div align="center">
+
+| 🚀 What I Do | 🤖 What I'm Exploring | 🎯 What I'm Looking For |
+|:---:|:---:|:---:|
+| Full stack apps with<br/>**Java, Spring Boot, React, MySQL** | **LLMs, RAG, agentic AI** and<br/>dataset pipelines for fine-tuning | **Java Developer** and<br/>**AI/GenAI fresher** roles |
+
+<br/>
+
+<a href="https://github.com/Shrikant922">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1200&color=2DD4BF&center=true&vCenter=true&width=600&lines=%F0%9F%92%A1+Build+in+public.+Understand+every+line+you+ship.;%F0%9F%9A%80+Ship+early.+Learn+fast.+Repeat." alt="Motto"/>
+</a>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2DD4BF,100:2c5364&height=3" width="100%" alt="divider"/>
 
 
 # 💻 Tech Stack:
