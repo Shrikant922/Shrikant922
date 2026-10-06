@@ -45,35 +45,67 @@ public class Shrikant {
 
 <br/>
 
+<img src="./tech-header.svg" width="100%" alt="Tech Stack"/>
+
+<div align="center">
+
+**💻 Languages & Web**<br/>
+![Java](https://img.shields.io/badge/Java-8d192b?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-8d192b?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-8d192b?style=for-the-badge&logo=javascript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-8d192b?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-8d192b?style=for-the-badge&logo=css3&logoColor=white)
+
+**⚙️ Frameworks**<br/>
+![Spring](https://img.shields.io/badge/Spring-8d192b?style=for-the-badge&logo=spring&logoColor=white) ![React](https://img.shields.io/badge/React-8d192b?style=for-the-badge&logo=react&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-8d192b?style=for-the-badge&logo=fastapi&logoColor=white)
+
+**🗄️ Databases**<br/>
+![MySQL](https://img.shields.io/badge/MySQL-8d192b?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-8d192b?style=for-the-badge&logo=mongodb&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-8d192b?style=for-the-badge&logo=sqlite&logoColor=white)
+
+**🤖 Data & AI/ML**<br/>
+![NumPy](https://img.shields.io/badge/NumPy-8d192b?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-8d192b?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-8d192b?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+**🚀 Tools & Deployment**<br/>
+![GitHub](https://img.shields.io/badge/GitHub-8d192b?style=for-the-badge&logo=github&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-8d192b?style=for-the-badge&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/Netlify-8d192b?style=for-the-badge&logo=netlify&logoColor=white) ![Render](https://img.shields.io/badge/Render-8d192b?style=for-the-badge&logo=render&logoColor=white) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-8d192b?style=for-the-badge&logo=google-cloud&logoColor=white) ![LaTeX](https://img.shields.io/badge/LaTeX-8d192b?style=for-the-badge&logo=latex&logoColor=white)
+
+**🎨 Design & Media**<br/>
+![Figma](https://img.shields.io/badge/Figma-8d192b?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-8d192b?style=for-the-badge&logo=canva&logoColor=white) ![Premiere Pro](https://img.shields.io/badge/Premiere%20Pro-8d192b?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white)
+
+</div>
+
+<br/>
+
+<img src="./projects-header.svg" width="100%" alt="Featured Projects"/>
+
+| 🗂️ Project | 📝 What it does | 🧱 Built with |
+|---|---|---|
+| **🤖 Training Data Curation Bot** | Final-year project: automated dataset generation pipeline for **LLM fine-tuning** | Python, LLMs, Data Pipelines |
+| **🧭 SkillPath** | AI-powered **personalized learning roadmap generator** | Spring Boot, React, MySQL, Gemini API |
+| **🎯 Road to AI/ML Engineer** | Personal learning tracker with a **54-topic, 3-phase roadmap** | HTML, CSS, JavaScript |
+| **🖼️ Background Removal Studio** | Remove and replace image backgrounds with **BRIA RMBG-2.0** | Python, Gradio, Hugging Face |
+| **🏦 Bank Management System** | Console banking app showcasing core **OOP concepts** | Java |
+
+📌 See everything on my [**repositories page**](https://github.com/Shrikant922?tab=repositories).
+
+<br/>
+
 <img src="./stats-header.svg" width="100%" alt="GitHub Stats"/>
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Shrikant922&show_icons=true&hide_border=true&bg_color=e9d8d4&title_color=8d192b&text_color=862931&icon_color=8d192b&ring_color=8d192b&include_all_commits=true&count_private=true" alt="GitHub stats"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shrikant922&layout=compact&hide_border=true&bg_color=e9d8d4&title_color=8d192b&text_color=862931" alt="Top languages"/>
+<img height="180" src="https://github-readme-stats.shion.dev/api?username=Shrikant922&show_icons=true&hide_border=true&bg_color=e9d8d4&title_color=8d192b&text_color=862931&icon_color=8d192b&ring_color=8d192b&include_all_commits=true&count_private=false" alt="GitHub stats"/>
+<img height="180" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Shrikant922&layout=compact&hide_border=true&bg_color=e9d8d4&title_color=8d192b&text_color=862931&count_private=false" alt="Top languages"/>
 
 <img src="https://streak-stats.demolab.com?user=Shrikant922&hide_border=true&background=e9d8d4&ring=8d192b&fire=8d192b&currStreakNum=8d192b&currStreakLabel=8d192b&sideNums=8d192b&sideLabels=862931&dates=862931" alt="Streak stats"/>
 
 </div>
 
+<br/>
 
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Shrikant922&theme=rose&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=Shrikant922&theme=rose&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Shrikant922&theme=rose&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+<img src="./connect-header.svg" width="100%" alt="Let's Connect"/>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Shrikant922&theme=rose&no-frame=false&no-bg=true&margin-w=4)
+<div align="center">
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
+[![GitHub](https://img.shields.io/badge/GitHub-Shrikant922-8d192b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shrikant922)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-8d192b?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN-ID)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-8d192b?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL@gmail.com)
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Shrikant922&limit=5&theme=rose&combine_all_yearly_contributions=true)
+<sub>💬 Open to Java Developer and AI/GenAI fresher roles. Let's build something great together.</sub>
 
----
-[![](https://komarev.com/ghpvc/?username=Shrikant922&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+</div>
