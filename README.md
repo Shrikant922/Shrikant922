@@ -108,3 +108,4 @@ public class Shrikant {
 <sub>💬 Open to Java Developer and AI/GenAI fresher roles. Let's build something great together.</sub>
 
 </div>
+[![Starred on StarSwap](https://www.fenriryt.me/badge/shrikant922)](https://www.fenriryt.me/u/shrikant922?ref=badge)
